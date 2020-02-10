@@ -6,9 +6,9 @@ import requests
 #                     resource_owner_key=resource_owner_key,
 #                     resource_owner_secret=resource_owner_secret)
 
-etsy = OAuth1Session('mr9qhz59w4mmuvm4ofozkq67', 'lbkjrsl5xx')
+etsy = OAuth1Session('', '')
 
-payload = {'api_key': 'mr9qhz59w4mmuvm4ofozkq67'}
+payload = {'api_key': ''}
 
 
 r = requests.get("https://openapi.etsy.com/v2/listings/active",  params=payload)
