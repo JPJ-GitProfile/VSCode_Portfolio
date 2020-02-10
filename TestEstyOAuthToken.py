@@ -48,7 +48,7 @@ def accessToken(etsy, myVerifier):
     #accessTokenResponse contains your actual token
     #
 
-etsy = OAuth1Session('mr9qhz59w4mmuvm4ofozkq67', 'lbkjrsl5xx')
+etsy = OAuth1Session('', '')
 (myToken, mySecret, myAuthURL) = requestToken(etsy)
 webbrowser.open(myAuthURL)
 verifier = input('Paste confirm code:')
